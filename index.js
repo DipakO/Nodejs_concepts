@@ -2,7 +2,7 @@ const os = require("os");
 const fs = require("fs");
 const path = require("path");
 
-console.log(os.platform());
+// console.log(os.platform());
 // console.log(os.hostname());
 // console.log(os.homedir());
 // console.log(os.tmpdir());
@@ -19,9 +19,9 @@ console.log(os.platform());
 // );
 
 // console.log(
-// fs.readFile("data.txt", "utf-8", (err, data) => {
-//   console.log(data);
-// });
+//   fs.readFile("data.txt", "utf-8", (err, data) => {
+//     console.log(data);
+//   })
 // );
 
 // console.log(
@@ -29,9 +29,33 @@ console.log(os.platform());
 //     console.log("data added succesfully");
 //   })
 // );
+// console.log(
+//   fs.unlink("data.txt", (err, file) => {
+//     if (err) {
+//       console.log(err);
+//     } else {
+//       console.log("deleted successfully file");
+//     }
+//   })
+// );
+// console.log(
+//   fs.open("data.txt", "w", (err, file) => {
+//     if (err) {
+//       console.log(err);
+//     } else {
+//       console.log("saved");
+//     }
+//   })
+// );
 
 // console.log(path.dirname("data.txt"));
 // console.log(path.extname("Server.js"));
 
-const App = require("./Add");
-App(10, 30);
+// const Add = require("./Add");
+// Add(10, 30);
+
+// const Sub = require("./Add");
+// Sub(30, 20);
+// exports.myDateTime = function () {
+//   return Date();
+// };
